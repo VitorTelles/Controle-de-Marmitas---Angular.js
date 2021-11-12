@@ -9,7 +9,7 @@ import { Package } from './package.model';
 export class PackageListComponent implements OnInit {
 
   packages: Package[] = [
-    new Package('Churrasco', 'Carne de Picanha', 'https://www.google.com/url?sa=i&url=https%3A%2F%2Freceitas.globo.com%2Fpicanha-na-brasa-gnt.ghtml&psig=AOvVaw0BmN3tAq2CdCB2AIRXE3ap&ust=1636741560477000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDt0L73kPQCFQAAAAAdAAAAABAD')
+    new Package('Churrasco', 'Carne de Picanha', 'https://frigorificoarvoredo.com.br/blog/wp-content/uploads/2018/09/picanha.jpg')
   ];
 
   constructor() { }
